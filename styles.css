@@ -81,15 +81,19 @@ button {
 }
 
 #tweet-quote {
-    background-color: #1DA1F2;
+    background-color: #fff4f4;
     color: white;
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
+#tweet-quote i {
+    color: black;
+}
+
 #tweet-quote:hover {
-    background-color: #1a8cd8;
+    background-color: #4c5052;
 }
 
 @media (max-width: 480px) {
